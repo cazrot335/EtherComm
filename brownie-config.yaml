@@ -1,0 +1,7 @@
+networks:
+  sepolia:
+    host: https://sepolia.infura.io/v3/${WEB3_INFURA_PROJECT_ID}
+    chainid: 11155111
+
+wallets:
+  from_key: ${PRIVATE_KEY}
